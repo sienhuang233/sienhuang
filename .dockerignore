@@ -1,0 +1,12 @@
+.env
+data
+node_modules
+originals
+original-zips
+backups
+research
+docs
+submission
+official-templates
+tests
+.git
