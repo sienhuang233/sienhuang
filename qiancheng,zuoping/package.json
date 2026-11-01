@@ -1,0 +1,14 @@
+{
+  "name": "qiancheng-banking-agent",
+  "version": "1.9.45",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node --env-file-if-exists=.env server.mjs",
+    "test": "node --test --test-concurrency=1 tests/*.test.mjs",
+    "dev": "node server.mjs"
+  }
+}
